@@ -16,6 +16,10 @@
 		9BCACD9725F5C363007307E5 /* Test1Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACD9625F5C363007307E5 /* Test1Channel.m */; };
 		9BCACD9B25F5C401007307E5 /* Test1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACD9A25F5C401007307E5 /* Test1View.m */; };
 		9BCACD9F25F5C682007307E5 /* Test2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACD9E25F5C682007307E5 /* Test2View.m */; };
+		9BCACDAE25F60E18007307E5 /* CALayer+YZExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDAD25F60E18007307E5 /* CALayer+YZExtension.m */; };
+		9BCACDB325F60EE1007307E5 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDB225F60EE1007307E5 /* FullViewController.m */; };
+		9BCACDB825F60F25007307E5 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDB725F60F25007307E5 /* BackView.m */; };
+		9BCACDBC25F60F3D007307E5 /* BackViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDBB25F60F3D007307E5 /* BackViewLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,14 @@
 		9BCACD9A25F5C401007307E5 /* Test1View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1View.m; sourceTree = "<group>"; };
 		9BCACD9D25F5C682007307E5 /* Test2View.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2View.h; sourceTree = "<group>"; };
 		9BCACD9E25F5C682007307E5 /* Test2View.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2View.m; sourceTree = "<group>"; };
+		9BCACDAC25F60E18007307E5 /* CALayer+YZExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+YZExtension.h"; sourceTree = "<group>"; };
+		9BCACDAD25F60E18007307E5 /* CALayer+YZExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+YZExtension.m"; sourceTree = "<group>"; };
+		9BCACDB125F60EE1007307E5 /* FullViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FullViewController.h; sourceTree = "<group>"; };
+		9BCACDB225F60EE1007307E5 /* FullViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullViewController.m; sourceTree = "<group>"; };
+		9BCACDB625F60F25007307E5 /* BackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackView.h; sourceTree = "<group>"; };
+		9BCACDB725F60F25007307E5 /* BackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
+		9BCACDBA25F60F3C007307E5 /* BackViewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackViewLayer.h; sourceTree = "<group>"; };
+		9BCACDBB25F60F3D007307E5 /* BackViewLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackViewLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +83,9 @@
 				9BCACD4325F21341007307E5 /* AppDelegate.m */,
 				9BCACD4825F21341007307E5 /* ViewController.h */,
 				9BCACD4925F21341007307E5 /* ViewController.m */,
+				9BCACDAC25F60E18007307E5 /* CALayer+YZExtension.h */,
+				9BCACDAD25F60E18007307E5 /* CALayer+YZExtension.m */,
+				9BCACDB025F60ED0007307E5 /* Full */,
 				9BCACD9225F5BEEF007307E5 /* Test1 */,
 				9BCACD4B25F21341007307E5 /* Main.storyboard */,
 				9BCACD4E25F21343007307E5 /* Assets.xcassets */,
@@ -92,6 +107,19 @@
 				9BCACD9E25F5C682007307E5 /* Test2View.m */,
 			);
 			path = Test1;
+			sourceTree = "<group>";
+		};
+		9BCACDB025F60ED0007307E5 /* Full */ = {
+			isa = PBXGroup;
+			children = (
+				9BCACDB125F60EE1007307E5 /* FullViewController.h */,
+				9BCACDB225F60EE1007307E5 /* FullViewController.m */,
+				9BCACDB625F60F25007307E5 /* BackView.h */,
+				9BCACDB725F60F25007307E5 /* BackView.m */,
+				9BCACDBA25F60F3C007307E5 /* BackViewLayer.h */,
+				9BCACDBB25F60F3D007307E5 /* BackViewLayer.m */,
+			);
+			path = Full;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,12 +191,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCACDB825F60F25007307E5 /* BackView.m in Sources */,
 				9BCACD4A25F21341007307E5 /* ViewController.m in Sources */,
+				9BCACDB325F60EE1007307E5 /* FullViewController.m in Sources */,
 				9BCACD4425F21341007307E5 /* AppDelegate.m in Sources */,
 				9BCACD5525F21343007307E5 /* main.m in Sources */,
+				9BCACDAE25F60E18007307E5 /* CALayer+YZExtension.m in Sources */,
 				9BCACD9F25F5C682007307E5 /* Test2View.m in Sources */,
 				9BCACD9725F5C363007307E5 /* Test1Channel.m in Sources */,
 				9BCACD9B25F5C401007307E5 /* Test1View.m in Sources */,
+				9BCACDBC25F60F3D007307E5 /* BackViewLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
