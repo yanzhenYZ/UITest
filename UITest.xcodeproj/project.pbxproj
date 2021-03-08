@@ -20,6 +20,11 @@
 		9BCACDB325F60EE1007307E5 /* FullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDB225F60EE1007307E5 /* FullViewController.m */; };
 		9BCACDB825F60F25007307E5 /* BackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDB725F60F25007307E5 /* BackView.m */; };
 		9BCACDBC25F60F3D007307E5 /* BackViewLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDBB25F60F3D007307E5 /* BackViewLayer.m */; };
+		9BCACDC025F62251007307E5 /* YZPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDBF25F62251007307E5 /* YZPlayerView.m */; };
+		9BCACDC425F62263007307E5 /* YZPlayerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDC325F62263007307E5 /* YZPlayerLayer.m */; };
+		9BCACDC825F622C8007307E5 /* YZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDC725F622C8007307E5 /* YZPlayer.m */; };
+		9BCACDCD25F625AF007307E5 /* YZMTKView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDCC25F625AF007307E5 /* YZMTKView.m */; };
+		9BCACDD125F6268C007307E5 /* YZMetalLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCACDD025F6268C007307E5 /* YZMetalLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +52,16 @@
 		9BCACDB725F60F25007307E5 /* BackView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackView.m; sourceTree = "<group>"; };
 		9BCACDBA25F60F3C007307E5 /* BackViewLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BackViewLayer.h; sourceTree = "<group>"; };
 		9BCACDBB25F60F3D007307E5 /* BackViewLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BackViewLayer.m; sourceTree = "<group>"; };
+		9BCACDBE25F62251007307E5 /* YZPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlayerView.h; sourceTree = "<group>"; };
+		9BCACDBF25F62251007307E5 /* YZPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlayerView.m; sourceTree = "<group>"; };
+		9BCACDC225F62263007307E5 /* YZPlayerLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlayerLayer.h; sourceTree = "<group>"; };
+		9BCACDC325F62263007307E5 /* YZPlayerLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlayerLayer.m; sourceTree = "<group>"; };
+		9BCACDC625F622C8007307E5 /* YZPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPlayer.h; sourceTree = "<group>"; };
+		9BCACDC725F622C8007307E5 /* YZPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPlayer.m; sourceTree = "<group>"; };
+		9BCACDCB25F625AF007307E5 /* YZMTKView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMTKView.h; sourceTree = "<group>"; };
+		9BCACDCC25F625AF007307E5 /* YZMTKView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMTKView.m; sourceTree = "<group>"; };
+		9BCACDCF25F6268C007307E5 /* YZMetalLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZMetalLayer.h; sourceTree = "<group>"; };
+		9BCACDD025F6268C007307E5 /* YZMetalLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZMetalLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +129,16 @@
 			children = (
 				9BCACDB125F60EE1007307E5 /* FullViewController.h */,
 				9BCACDB225F60EE1007307E5 /* FullViewController.m */,
+				9BCACDCB25F625AF007307E5 /* YZMTKView.h */,
+				9BCACDCC25F625AF007307E5 /* YZMTKView.m */,
+				9BCACDCF25F6268C007307E5 /* YZMetalLayer.h */,
+				9BCACDD025F6268C007307E5 /* YZMetalLayer.m */,
+				9BCACDC625F622C8007307E5 /* YZPlayer.h */,
+				9BCACDC725F622C8007307E5 /* YZPlayer.m */,
+				9BCACDBE25F62251007307E5 /* YZPlayerView.h */,
+				9BCACDBF25F62251007307E5 /* YZPlayerView.m */,
+				9BCACDC225F62263007307E5 /* YZPlayerLayer.h */,
+				9BCACDC325F62263007307E5 /* YZPlayerLayer.m */,
 				9BCACDB625F60F25007307E5 /* BackView.h */,
 				9BCACDB725F60F25007307E5 /* BackView.m */,
 				9BCACDBA25F60F3C007307E5 /* BackViewLayer.h */,
@@ -191,14 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BCACDC825F622C8007307E5 /* YZPlayer.m in Sources */,
 				9BCACDB825F60F25007307E5 /* BackView.m in Sources */,
 				9BCACD4A25F21341007307E5 /* ViewController.m in Sources */,
 				9BCACDB325F60EE1007307E5 /* FullViewController.m in Sources */,
 				9BCACD4425F21341007307E5 /* AppDelegate.m in Sources */,
 				9BCACD5525F21343007307E5 /* main.m in Sources */,
+				9BCACDCD25F625AF007307E5 /* YZMTKView.m in Sources */,
 				9BCACDAE25F60E18007307E5 /* CALayer+YZExtension.m in Sources */,
 				9BCACD9F25F5C682007307E5 /* Test2View.m in Sources */,
+				9BCACDC425F62263007307E5 /* YZPlayerLayer.m in Sources */,
+				9BCACDC025F62251007307E5 /* YZPlayerView.m in Sources */,
 				9BCACD9725F5C363007307E5 /* Test1Channel.m in Sources */,
+				9BCACDD125F6268C007307E5 /* YZMetalLayer.m in Sources */,
 				9BCACD9B25F5C401007307E5 /* Test1View.m in Sources */,
 				9BCACDBC25F60F3D007307E5 /* BackViewLayer.m in Sources */,
 			);

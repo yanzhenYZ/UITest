@@ -34,7 +34,7 @@
     if (NSThread.isMainThread) {
         [self yz_layoutSublayers];
     } else {
-        NSLog(@"YZLayer__:%@",self);
+//        NSLog(@"YZLayer__:%@",self);
         if (YES) {
             __strong typeof(self) strongSelf = self;
             dispatch_sync(dispatch_get_main_queue(), ^{

@@ -10,6 +10,7 @@
 @implementation BackViewLayer
 - (void)layoutSublayers {
     [super layoutSublayers];
-    NSLog(@"BackViewLayer");
+    NSLog(@"YZYZ:%@", self);
 }
+
 @end
